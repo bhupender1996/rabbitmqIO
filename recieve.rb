@@ -1,6 +1,6 @@
 require 'bunny'
 require 'json'
-b = Bunny.new('amqp://jtnipnty:oiyV4umiKwf_la6R-2DQ7rmOXDO3LCcT@otter.rmq.cloudamqp.com/jtnipnty')
+b = Bunny.new('URL')
 b.start
 
 ch = b.create_channel
